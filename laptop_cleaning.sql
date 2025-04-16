@@ -1,7 +1,6 @@
 use campusx;
 
-select * 
-from price_of_laptopdata;
+
 
 -- create a backup as we are performing data cleaning with mysql 
 create table laptop like laptop_backup;
